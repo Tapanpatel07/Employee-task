@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(183,181,213);
+  background: linear-gradient(90deg, rgba(183,181,213,1) 0%, rgba(27,27,112,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+
+.registration-form, .login-form, .edit-employee {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 22px;
+  border: 2px solid black;
+}
+
+.registration-form{
+  background: linear-gradient(#e66465, #9198e5);
+}
+.registration-form h2{
+  padding: 0px 52px 0px 52px;
+  margin: 13px 8px 29px 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  justify-content: flex-start;
+  display: grid;
+}
+
+.form-group button{
+  margin: 0px 155px;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 32px;
+  background-color: cornflowerblue;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+ 
+
+}
+
+.form-group label{
+  font-family: monospace;
+  font-size: larger;
+}
+
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  
+
+}
+
+input {
+  font-family: monospace;
+  font-size: larger;
+}
+
+.registration-form input{
+  border-radius: 7px;
+}
+
+.form-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  
+}
+
+
+.employee-list {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.employee-list th, .employee-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.employee-list th {
+  background-color: #f2f2f2;
+}
+
+
+.error-message {
+  color:white;
+  margin-bottom: 10px;
+}
+
+.login-form h2{
+  padding: 0px 44px 0px 83px;
+  margin: 11px 11px 22px 23px;
+}
+
+.employee-list td{
+  background-color: white;
+  color:purple;
+}
+
+.edit-employee form{
+  margin-top: 0em;
+  justify-content: flex-start;
+  display: grid;
+  gap: 8px;
+}
+
+.edit-employee button{
+  margin: 8px -81px 0px 169px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+  height: 30px;
+}
+
+.employee-list table{
+  border: 2px solid black;
+}
+
+.login-form{
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.login-form input{
+  border-radius: 7px;
+}
+
+.edit-employee{
+    background: linear-gradient(#e66465, #9198e5);
+  }
+
+.edit-employee input{
+  border-radius: 7px;
+}
+
+.employee-list table tr th{
+    background-color: #e66465;
+}
+
+.table table th{
+  background-color:black;
+  color: white;
+  
+}
+
+.table td{
+  background-color:blanchedalmond;
+  font-family:sans-serif;
+}
+
+.employee-list button{
+  border:2px solid black;
+  border-radius: 5px;
+  background-color:#ccc;
+}
+.home-page button{
+  border:2px solid black;
+  border-radius: 5px;
+  background-color:#ccc;
+}
+
+.edit-employee button{
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #ccc;
+  color:black;
+}
+
+ #gender{
+  border-radius: 7px;
+  border: 2px solid black;
+}
